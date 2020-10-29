@@ -1,90 +1,99 @@
 <template>
-  <main>
-    <section class="hero">
-      <div class="social">
-        <SocialBar />
-      </div>
-      <div class="hero-content">
-        <h2>Pilier de la Solidarité</h2>
-        <p>
-          Aider les initiatives solidaires, intensifier le soutien aux
-          associations et opérations caritatives.
-        </p>
-        <img src="../assets/images/Assets_pilier/img_solidaire.png" alt="" />
-      </div>
-    </section>
-    <section class="intro">
-      <p>
-        Institution reconnue et respectée, l’Union Bordeaux Bègles profite de sa
-        médiatisation pour sensibiliser et faire connaitre les actions positives
-        issues du milieu associatif. L’UBB a noué de nombreux partenariats avec
-        des associations parmi lesquelles :
-      </p>
-      <div class="logo-asso">
-        <img src="../assets/images/Assets_pilier/aladin.png" alt="" />
-        <img src="../assets/images/Assets_pilier/BMS.png" alt="" />
-        <img src="../assets/images/Assets_pilier/macdo.png" alt="" />
-        <img src="../assets/images/Assets_pilier/ovale.png" alt="" />
-        <img src="../assets/images/Assets_pilier/mov.png" alt="" />
-        <img src="../assets/images/Assets_pilier/DDB.png" alt="" />
-        <img src="../assets/images/Assets_pilier/chien.png" alt="" />
-        <img src="../assets/images/Assets_pilier/ovale_citoyen.png" alt="" />
-        <img src="../assets/images/Assets_pilier/police.png" alt="" />
-        <img src="../assets/images/Assets_pilier/you.png" alt="" />
-      </div>
-    </section>
-    <section class="actions">
-      <div class="text-area">
-        <h2>Rencontre dans les hôpitaux</h2>
-        <p>
-          L’UBB a noué de nombreux partenariats avec des associations parmi
-          lesquelles Drop de Béton, Ovale de l’Espoir, Bordeaux Mécène
-          Solidaire, Octobre Rose, Movember, Aladin, Ovale Citoyen, Maison
-          Ronald Mc Donald’s, Bleuet de France, Aladin, etc…
-        </p>
-      </div>
-    </section>
-    <section class="dons">
-      <h2>Je deviens mécène</h2>
-      <div class="dons-container">
-        <div class="don-unit">
-          <img src="../assets/images/Assets_pilier/user.svg" alt="" />
-          <span>Je suis</span>
-          <h4>un particulier</h4>
-          <p>
-            Le mécénat particulier permet de bénéficier d’une réduction d’impôts
-            de 66% des sommes versées, retenues dans la limite annuelle de 20%
-            du revenu imposable.
-          </p>
-          <router-link class="link" to="/donation"
-            >Devenir donateur</router-link
-          >
+  <div>
+    <BaseHeader />
+    <main>
+      <section class="hero">
+        <div class="social">
+          <SocialBar />
         </div>
-        <div class="vl"></div>
+        <div class="hero-content">
+          <h2>Pilier de la Solidarité</h2>
+          <p>
+            Aider les initiatives solidaires, intensifier le soutien aux
+            associations et opérations caritatives.
+          </p>
+          <img src="../assets/images/Assets_pilier/img_solidaire.png" alt="" />
+        </div>
+      </section>
+      <section class="intro">
+        <p>
+          Institution reconnue et respectée, l’Union Bordeaux Bègles profite de
+          sa médiatisation pour sensibiliser et faire connaitre les actions
+          positives issues du milieu associatif. L’UBB a noué de nombreux
+          partenariats avec des associations parmi lesquelles :
+        </p>
+        <div class="logo-asso">
+          <img src="../assets/images/Assets_pilier/aladin.png" alt="" />
+          <img src="../assets/images/Assets_pilier/BMS.png" alt="" />
+          <img src="../assets/images/Assets_pilier/macdo.png" alt="" />
+          <img src="../assets/images/Assets_pilier/ovale.png" alt="" />
+          <img src="../assets/images/Assets_pilier/mov.png" alt="" />
+          <img src="../assets/images/Assets_pilier/DDB.png" alt="" />
+          <img src="../assets/images/Assets_pilier/chien.png" alt="" />
+          <img src="../assets/images/Assets_pilier/ovale_citoyen.png" alt="" />
+          <img src="../assets/images/Assets_pilier/police.png" alt="" />
+          <img src="../assets/images/Assets_pilier/you.png" alt="" />
+        </div>
+      </section>
+      <section class="actions">
+        <div class="text-area">
+          <h2>Rencontre dans les hôpitaux</h2>
+          <p>
+            L’UBB a noué de nombreux partenariats avec des associations parmi
+            lesquelles Drop de Béton, Ovale de l’Espoir, Bordeaux Mécène
+            Solidaire, Octobre Rose, Movember, Aladin, Ovale Citoyen, Maison
+            Ronald Mc Donald’s, Bleuet de France, Aladin, etc…
+          </p>
+        </div>
+      </section>
+      <section class="dons">
+        <h2>Je deviens mécène</h2>
+        <div class="dons-container">
+          <div class="don-unit">
+            <img src="../assets/images/Assets_pilier/user.svg" alt="" />
+            <span>Je suis</span>
+            <h4>un particulier</h4>
+            <p>
+              Le mécénat particulier permet de bénéficier d’une réduction
+              d’impôts de 66% des sommes versées, retenues dans la limite
+              annuelle de 20% du revenu imposable.
+            </p>
+            <router-link class="link" to="/donation"
+              >Devenir donateur</router-link
+            >
+          </div>
+          <div class="vl"></div>
 
-        <div class="don-unit">
-          <img src="../assets/images/Assets_pilier/bat.svg" alt="" />
-          <span>Je suis</span>
-          <h4>une entreprise</h4>
-          <p>
-            Le mécénat entreprise permet de bénéficier d’une réduction d’impôts
-            de 60% du montant du don effectué et retenu dans la limite de 0,5%
-            du chiffre d’affaire annuel hors taxe.
-          </p>
-          <router-link class="link secondary-button" to="/mecenat"
-            >Contactez-nous</router-link
-          >
+          <div class="don-unit">
+            <img src="../assets/images/Assets_pilier/bat.svg" alt="" />
+            <span>Je suis</span>
+            <h4>une entreprise</h4>
+            <p>
+              Le mécénat entreprise permet de bénéficier d’une réduction
+              d’impôts de 60% du montant du don effectué et retenu dans la
+              limite de 0,5% du chiffre d’affaire annuel hors taxe.
+            </p>
+            <router-link class="link secondary-button" to="/mecenat"
+              >Contactez-nous</router-link
+            >
+          </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
+    <BaseFooter />
+  </div>
 </template>
 
 <script>
+import BaseHeader from "@/components/BaseHeader";
+import BaseFooter from "@/components/BaseFooter";
 import SocialBar from "@/components/SocialBar";
+
 export default {
   name: "ValuesPage",
   components: {
+    BaseHeader,
+    BaseFooter,
     SocialBar,
   },
 };

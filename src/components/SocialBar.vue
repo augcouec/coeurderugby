@@ -2,34 +2,122 @@
   <ul>
     <li>
       <a href="https://www.facebook.com/ubbrugby">
-        <img src="../assets/images/icon_fb.svg" alt="facebook link"
-      /></a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="13.43"
+          height="24.951"
+          viewBox="0 0 13.43 24.951"
+        >
+          <path
+            id="Icon_awesome-facebook-f"
+            data-name="Icon awesome-facebook-f"
+            d="M14.159,14.035l.7-4.516H10.5V6.589A2.263,2.263,0,0,1,13.06,4.15h1.98V.305A24.257,24.257,0,0,0,11.525,0C7.939,0,5.6,2.163,5.6,6.078V9.519H1.609v4.516H5.6V24.951H10.5V14.035Z"
+            transform="translate(-1.609)"
+            :fill="color"
+          />
+        </svg>
+      </a>
     </li>
     <li>
       <a href="https://www.instagram.com/ubbrugby/">
-        <img src="../assets/images/icon_insta.svg" alt="instagram link"
-      /></a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          :fill="color"
+          stroke="#FFF"
+          width="24.887"
+          height="24.758"
+          viewBox="0 0 24.887 24.758"
+        >
+          <path
+            id="Icon_awesome-instagram"
+            data-name="Icon awesome-instagram"
+            d="M12.441,8.269a6.348,6.348,0,1,0,6.379,6.348A6.353,6.353,0,0,0,12.441,8.269Zm0,10.475a4.127,4.127,0,1,1,4.147-4.127,4.145,4.145,0,0,1-4.147,4.127ZM20.569,8.009a1.488,1.488,0,1,1-1.488-1.481A1.481,1.481,0,0,1,20.569,8.009Zm4.225,1.5a7.307,7.307,0,0,0-2.01-5.188,7.432,7.432,0,0,0-5.213-2c-2.054-.116-8.211-.116-10.266,0A7.422,7.422,0,0,0,2.092,4.319,7.331,7.331,0,0,0,.082,9.507c-.117,2.044-.117,8.171,0,10.215a7.307,7.307,0,0,0,2.01,5.188,7.442,7.442,0,0,0,5.213,2c2.054.116,8.211.116,10.266,0a7.384,7.384,0,0,0,5.213-2,7.355,7.355,0,0,0,2.01-5.188c.117-2.044.117-8.165,0-10.209Zm-2.654,12.4a4.189,4.189,0,0,1-2.365,2.353c-1.638.646-5.524.5-7.334.5s-5.7.144-7.334-.5a4.189,4.189,0,0,1-2.365-2.353c-.65-1.63-.5-5.5-.5-7.3s-.144-5.674.5-7.3A4.189,4.189,0,0,1,5.107,4.965c1.638-.646,5.524-.5,7.334-.5s5.7-.144,7.334.5A4.189,4.189,0,0,1,22.14,7.319c.65,1.63.5,5.5.5,7.3S22.79,20.291,22.14,21.915Z"
+            transform="translate(0.005 -2.238)"
+            :fill="color"
+          />
+        </svg>
+      </a>
     </li>
     <li>
       <a
         href="https://twitter.com/UBBrugby?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-        ><img src="../assets/images/icon_twitter.svg" alt="twitter link"
-      /></a>
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          :fill="color"
+          stroke="#FFF"
+          width="25.075"
+          height="24.951"
+          viewBox="0 0 25.075 24.951"
+        >
+          <path
+            id="Icon_awesome-twitter-square"
+            data-name="Icon awesome-twitter-square"
+            d="M22.389,2.25H2.687A2.681,2.681,0,0,0,0,4.923v19.6A2.681,2.681,0,0,0,2.687,27.2h19.7a2.681,2.681,0,0,0,2.687-2.673V4.923A2.681,2.681,0,0,0,22.389,2.25Zm-2.737,8.844c.011.156.011.317.011.473A10.346,10.346,0,0,1,9.218,21.96a10.434,10.434,0,0,1-5.636-1.637,7.772,7.772,0,0,0,.884.045,7.383,7.383,0,0,0,4.556-1.559,3.674,3.674,0,0,1-3.431-2.534,3.975,3.975,0,0,0,1.657-.067A3.658,3.658,0,0,1,4.31,12.62v-.045a3.682,3.682,0,0,0,1.657.462A3.64,3.64,0,0,1,4.332,10a3.593,3.593,0,0,1,.5-1.843A10.44,10.44,0,0,0,12.4,11.974a3.679,3.679,0,0,1,6.263-3.336,7.215,7.215,0,0,0,2.328-.88,3.647,3.647,0,0,1-1.612,2.011A7.334,7.334,0,0,0,21.493,9.2,7.706,7.706,0,0,1,19.652,11.094Z"
+            transform="translate(0 -2.25)"
+            :fill="color"
+          />
+        </svg>
+      </a>
     </li>
     <li>
       <a href="https://www.linkedin.com/company/union-bordeaux-b%C3%A8gles/"
-        ><img src="../assets/images/icon_linkedin.svg" alt="linkedin link"
-      /></a>
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          :fill="color"
+          stroke="#FFF"
+          width="25.699"
+          height="25.571"
+          viewBox="0 0 25.699 25.571"
+        >
+          <path
+            id="Icon_awesome-linkedin-in"
+            data-name="Icon awesome-linkedin-in"
+            d="M5.752,25.572H.424V8.5H5.752ZM3.086,6.17a3.085,3.085,0,1,1,3.086-3.1A3.1,3.1,0,0,1,3.086,6.17Zm22.608,19.4H20.377V17.261c0-1.981-.04-4.521-2.77-4.521-2.77,0-3.195,2.152-3.195,4.378v8.454H9.09V8.5H14.2v2.329h.075a5.6,5.6,0,0,1,5.041-2.757c5.392,0,6.383,3.533,6.383,8.122v9.378Z"
+            transform="translate(0 -0.001)"
+            :fill="color"
+          />
+        </svg>
+      </a>
     </li>
     <li>
       <a href="https://www.youtube.com/channel/UC0ofHgdtPGcNd21eVuBSWBQ"
-        ><img src="../assets/images/icon_yt.svg" alt="youtube link"
-      /></a>
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          :fill="color"
+          stroke="#FFF"
+          width="35.663"
+          height="24.951"
+          viewBox="0 0 35.663 24.951"
+        >
+          <path
+            id="Icon_awesome-youtube"
+            data-name="Icon awesome-youtube"
+            d="M35.967,8.4a4.47,4.47,0,0,0-3.153-3.158C30.033,4.5,18.881,4.5,18.881,4.5s-11.152,0-13.933.746A4.47,4.47,0,0,0,1.8,8.4C1.05,11.189,1.05,17,1.05,17s0,5.811.745,8.6A4.4,4.4,0,0,0,4.948,28.7c2.781.746,13.933.746,13.933.746s11.152,0,13.933-.746A4.4,4.4,0,0,0,35.967,25.6c.745-2.785.745-8.6.745-8.6s0-5.811-.745-8.6ZM15.234,22.277V11.724L24.555,17l-9.321,5.276Z"
+            transform="translate(-1.05 -4.5)"
+            :fill="color"
+          />
+        </svg>
+      </a>
     </li>
     <li>
       <a href="https://www.tiktok.com/@ubbrugby?lang=fr"
-        ><img src="../assets/images/icon_tiktok.svg" alt="tiktok link"
-      /></a>
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          :fill="color"
+          stroke="#FFF"
+          width="21.785"
+          height="24.952"
+          viewBox="0 0 21.785 24.952"
+        >
+          <path
+            id="Icon_simple-tiktok"
+            data-name="Icon simple-tiktok"
+            d="M13.81.021C15.179,0,16.537.01,17.9,0a6.46,6.46,0,0,0,1.828,4.335A7.387,7.387,0,0,0,24.154,6.2v4.19a11.229,11.229,0,0,1-4.388-1.008,12.926,12.926,0,0,1-1.693-.967c-.01,3.036.01,6.071-.021,9.1a7.915,7.915,0,0,1-1.41,4.1,7.794,7.794,0,0,1-6.175,3.337A7.648,7.648,0,0,1,6.2,23.87,7.837,7.837,0,0,1,2.39,17.934c-.021-.52-.031-1.04-.01-1.549A7.857,7.857,0,0,1,11.5,9.44c.021,1.539-.042,3.077-.042,4.616a3.672,3.672,0,0,0-3.155.385A3.613,3.613,0,0,0,6.883,16.26a4.1,4.1,0,0,0-.146,1.674,3.551,3.551,0,0,0,3.657,2.984,3.513,3.513,0,0,0,2.894-1.674,2.392,2.392,0,0,0,.428-1.1c.1-1.861.063-3.711.073-5.572.01-4.19-.01-8.369.021-12.548Z"
+            transform="translate(-2.369)"
+            :fill="color"
+          />
+        </svg>
+      </a>
     </li>
   </ul>
 </template>
@@ -37,18 +125,23 @@
 <script>
 export default {
   name: "SocialBar",
+  props: {
+    color: {
+      default: "#FFF",
+    },
+  },
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 ul {
   display: flex;
 }
 li {
-  margin-right: 2% !important ;
+  margin-right: 20px !important ;
 }
-img {
-  width: 25px;
-  height: 25px;
+svg {
+  max-width: 20px;
+  max-height: 20px;
 }
 </style>

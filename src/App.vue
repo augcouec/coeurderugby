@@ -2,19 +2,19 @@
   <div>
     <BaseHeader />
     <router-view />
-    <SocialBar />
+    <Footer />
   </div>
 </template>
 
 <script>
 import BaseHeader from "@/components/BaseHeader";
-import SocialBar from "@/components/SocialBar";
+import Footer from "@/components/Footer";
 
 export default {
   name: "App",
   components: {
     BaseHeader,
-    SocialBar,
+    Footer,
   },
 };
 </script>

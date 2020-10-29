@@ -2,16 +2,19 @@
   <div>
     <BaseHeader />
     <router-view />
+    <SocialBar />
   </div>
 </template>
 
 <script>
 import BaseHeader from "@/components/BaseHeader";
+import SocialBar from "@/components/SocialBar";
 
 export default {
   name: "App",
   components: {
     BaseHeader,
+    SocialBar,
   },
 };
 </script>

@@ -129,8 +129,12 @@ export default {
 
 <style lang="scss" scoped>
 header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   color: white;
-  background-color: $color-primary;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -153,11 +157,7 @@ header {
 }
 
 .fixed {
-  position: fixed;
-  width: 100%;
   background-color: white;
-  top: 0;
-  left: 0;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 
   nav a {

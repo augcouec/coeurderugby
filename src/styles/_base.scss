@@ -13,12 +13,13 @@ h1 {
 h2 {
   font-family: "Gotham";
   font-weight: normal;
+  font-size: 36px;
 }
 
 .link {
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   text-align: center;
   background: $color-primary;

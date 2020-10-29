@@ -1,13 +1,15 @@
-body {
-}
-h1 {
-  font-weight: bold;
-}
-h2 {
-  font-weight: normal;
-}
+<template>
+  <button @click="$emit('click')"><slot /></button>
+</template>
 
-.link {
+<script>
+export default {
+  name: "BaseButton",
+};
+</script>
+
+<style lang="scss" scoped>
+button {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -17,5 +19,5 @@ h2 {
   border-radius: 60px;
   color: white;
   cursor: pointer;
-  text-decoration: none;
 }
+</style>

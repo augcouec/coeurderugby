@@ -4,12 +4,12 @@
       <img src="../assets/images/logo.svg" alt="" />
     </div>
     <ul class="liste-nav">
-      <li><a href="">Accueil</a></li>
-      <li><a href="">Piliers</a></li>
-      <li><a href="">Cookies</a></li>
-      <li><a href="">Don</a></li>
-      <li><a href="">Jeu</a></li>
-      <li><a href="">Politique de confidentialitée</a></li>
+      <li><router-link to="/">Accueil</router-link></li>
+      <li><router-link to="/piliers">Piliers</router-link></li>
+      <li><router-link to="/">Cookies</router-link></li>
+      <li><router-link to="/donation">Don</router-link></li>
+      <li><router-link to="jeu">Jeu</router-link></li>
+      <li><router-link to="/">Politique de confidentialitée</router-link></li>
     </ul>
     <div class="aside-right">
       <SocialBar color="#691C33" />

@@ -1,21 +1,12 @@
 <template>
   <div>
-    <BaseHeader />
     <router-view />
-    <Footer />
   </div>
 </template>
 
 <script>
-import BaseHeader from "@/components/BaseHeader";
-import Footer from "@/components/Footer";
-
 export default {
   name: "App",
-  components: {
-    BaseHeader,
-    Footer,
-  },
 };
 </script>
 

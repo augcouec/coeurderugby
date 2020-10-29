@@ -109,12 +109,21 @@
 <script>
 export default {
   name: "BaseHeader",
+  props: {
+    forceFixed: {
+      default: false,
+    },
+  },
   data() {
     return {
       fixed: false,
     };
   },
   mounted() {
+    if (this.forceFixed) {
+      this.fixed = true;
+      return;
+    }
     window.addEventListener("scroll", () => {
       if (window.scrollY > 120 && !this.fixed) {
         this.fixed = true;
@@ -141,7 +150,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   padding: 30px 140px;
-
   nav {
     display: flex;
     align-items: center;
@@ -151,21 +159,17 @@ header {
       color: white;
     }
   }
-
   svg {
     width: 88px;
     fill: white;
   }
 }
-
 .fixed {
   background-color: white;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-
   nav a {
     color: black;
   }
-
   svg {
     fill: $color-primary;
   }

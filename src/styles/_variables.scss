@@ -1,4 +1,29 @@
-$black: black;
+@font-face {
+  font-family: "Gotham";
+  src: url("../assets/fonts/GothamBook.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../assets/fonts/Gotham-Black.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins-Bold.ttf");
+  font-weight: bold;
+}
+
+$font-primary: "Poppins";
+$font-secondary: "Gotham";
 
 $color-solidarite-primary: #86cac2;
 $color-solidarite-secondary: #f3a1c6;
@@ -15,7 +40,7 @@ $color-amateur-secondary: #e72a74;
 $gradient-amateur: transparent linear-gradient(90deg, #fac084 0%, #e72a74 100%)
   0% 0% no-repeat padding-box;
 
-$color-amateur-primary: #fed130;
-$color-amateur-secondary: #a1d2b8;
-$gradient-amateur: transparent linear-gradient(90deg, #fed130 0%, #a1d2b8 100%)
-  0% 0% no-repeat padding-box;
+$color-eco-primary: #fed130;
+$color-eco-secondary: #a1d2b8;
+$gradient-eco: transparent linear-gradient(90deg, #fed130 0%, #a1d2b8 100%) 0%
+  0% no-repeat padding-box;

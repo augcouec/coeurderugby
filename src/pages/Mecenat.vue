@@ -3,7 +3,6 @@
  <h1>Mécénat</h1>
 
  <section >
-   <h2>Devenir Mécène</h2>
    <div class="formulaire">
       <div class="aside">
      <h2>Salut les rheys</h2>

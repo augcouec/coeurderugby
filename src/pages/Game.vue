@@ -76,6 +76,7 @@ export default {
 
 <style lang="scss" scoped>
 .page {
+  min-height: 200vh;
 }
 .introduction {
 }

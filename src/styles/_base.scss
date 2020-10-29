@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Poppins";
 }
@@ -12,6 +16,8 @@ h2 {
 }
 
 .link {
+  display: flex;
+  align-items: center;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -22,4 +28,10 @@ h2 {
   color: white;
   cursor: pointer;
   text-decoration: none;
+
+  &--white {
+    color: $color-primary;
+    background-color: white;
+    border: solid 1px $color-primary;
+  }
 }

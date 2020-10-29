@@ -150,6 +150,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   padding: 30px 140px;
+  z-index: 100;
   nav {
     display: flex;
     align-items: center;

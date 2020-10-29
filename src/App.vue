@@ -35,5 +35,10 @@ export default {
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Rustico";
+  src: url("./assets/fonts/Rustico-V2-Regular.ttf");
+}
+
 @import "@/styles/main.scss";
 </style>

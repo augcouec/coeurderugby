@@ -2,7 +2,7 @@
   <main class="page">
     <div v-if="!quizStarted && !quizFinished" class="introduction">
       <h1>Quel joueur es-tu ?</h1>
-      <button @click="startGame">Commencer le quiz</button>
+      <BaseButton @click="startGame">Commencer le quiz</BaseButton>
     </div>
     <div v-if="quizStarted && !quizFinished" class="game">
       <div class="game__step">
@@ -20,7 +20,7 @@
         >
           <div>{{ response }}</div>
         </div>
-        <button @click="nextStep">Suivant</button>
+        <BaseButton @click="nextStep">Suivant</BaseButton>
       </div>
     </div>
     <div v-if="quizStarted && quizFinished" class="result">Tu es ....</div>
@@ -28,8 +28,13 @@
 </template>
 
 <script>
+import BaseButton from "@/components/BaseButton";
+
 export default {
   name: "GamePage",
+  components: {
+    BaseButton,
+  },
   data() {
     return {
       quizStarted: false,

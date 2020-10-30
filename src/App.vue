@@ -7,6 +7,12 @@
 <script>
 export default {
   name: "App",
+  watch: {
+    $route() {
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    },
+  },
 };
 </script>
 

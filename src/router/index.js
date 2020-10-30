@@ -39,6 +39,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "carotte" */ "../pages/Carotte.vue"),
   },
+  {
+    path: "/business-form",
+    name: "Business",
+    component: () =>
+      import(/* webpackChunkName: "business" */ "../pages/Business.vue"),
+  },
 ];
 
 const router = new VueRouter({

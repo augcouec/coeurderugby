@@ -368,7 +368,7 @@ export default {
     transform: rotate(-8deg);
     color: transparent;
     -webkit-text-stroke: 2px white;
-    opacity: 30%;
+    opacity: 0.3;
   }
 
   .subtitle {

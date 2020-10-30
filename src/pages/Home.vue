@@ -6,11 +6,10 @@
         <div class="social">
           <SocialBar />
         </div>
-        <h1>
-          Renforçons notre engagement
-          <br />
-          vis à vis de la jeunesse et des actions solidaires
+        <h1 class="title">
+          Engagez-vous avec nous
         </h1>
+        <h1 class="subtitle">Engagez-vous avec nous</h1>
         <hr />
       </section>
       <section class="emsemble">
@@ -185,13 +184,22 @@ export default {
   align-items: center;
   flex-direction: column;
 
-  h1 {
-    font-size: 40px;
-    color: #fff;
-    font-weight: normal;
-    transform: rotate(-10deg);
-    line-height: 1.5em;
-    text-align: center;
+  .title {
+    font-family: $font-secondary;
+    text-transform: uppercase;
+    font-size: 80px;
+    transform: rotate(-8deg);
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    opacity: 30%;
+  }
+
+  .subtitle {
+    font-family: $font-secondary;
+    text-transform: uppercase;
+    font-size: 80px;
+    transform: rotate(-8deg) translateY(-150%);
+    color: white;
   }
   hr {
     transform: rotate(-10deg);

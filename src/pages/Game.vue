@@ -61,7 +61,9 @@
           auprès des plus jeunes. Toi aussi, rejoins la
           <strong>#TeamSolidaire</strong> !
         </p>
-        <router-link to="/" class="link link--white">Je m'engage</router-link>
+        <router-link to="/donation" class="link link--white"
+          >Je m'engage</router-link
+        >
         <div class="rs">
           <p class="rs-share">Partage ton pilier</p>
           <div class="svg">
@@ -263,19 +265,19 @@ export default {
 }
 
 .bg-final {
-  background-image: url("../assets/images/bg-quiz-3.png");
+  background-image: url("../assets/images/fond_game.png");
+  background-size: cover;
 }
 
 .introduction {
-  padding: 130px 150px 0 150px;
+  padding: 90px 110px 0 110px;
 
   h1 {
-    color: white;
-    font-size: 95px;
+    font-family: $font-secondary;
     text-transform: uppercase;
-    font-weight: normal;
+    font-size: 62px;
     transform: rotate(-8deg);
-    font-family: $font-primary;
+    color: white;
   }
 
   p {
@@ -304,7 +306,7 @@ export default {
   }
 }
 .game {
-  padding: 80px 150px 0 150px;
+  padding: 80px 150px 100px 150px;
 
   &__progress {
     font-size: 25px;
@@ -362,7 +364,7 @@ export default {
   .title {
     font-family: $font-secondary;
     text-transform: uppercase;
-    font-size: 150px;
+    font-size: 100px;
     transform: rotate(-8deg);
     color: transparent;
     -webkit-text-stroke: 2px white;
@@ -372,7 +374,7 @@ export default {
   .subtitle {
     font-family: $font-secondary;
     text-transform: uppercase;
-    font-size: 92px;
+    font-size: 62px;
     transform: rotate(-8deg) translateY(-150%);
     color: white;
   }
@@ -380,7 +382,7 @@ export default {
   .firstname {
     font-family: $font-secondary;
     text-transform: uppercase;
-    font-size: 92px;
+    font-size: 72px;
     color: transparent;
     -webkit-text-stroke: 2px white;
   }
@@ -388,17 +390,18 @@ export default {
   .lastname {
     font-family: $font-secondary;
     text-transform: uppercase;
-    font-size: 92px;
-    transform: translate(-97px, -49%);
+    font-size: 72px;
+    transform: translate(-15px, -49%);
     color: white;
   }
 
   .paragraph {
     color: white;
-    line-height: 25px;
+    line-height: 2em;
     margin-top: -50px;
     padding-bottom: 30px;
     width: 40%;
+    font-size: 0.8em;
   }
 
   .link {
@@ -409,6 +412,7 @@ export default {
     display: inline-block;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .rs-share {

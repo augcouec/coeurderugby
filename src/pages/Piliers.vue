@@ -110,6 +110,7 @@ export default {
 h2 {
   color: #fff;
   margin-bottom: 3%;
+  font-family: $font-secondary;
 }
 .hero {
   background: url("../assets/images/Fond.jpg");
@@ -190,6 +191,7 @@ h2 {
 }
 .dons h2 {
   color: $color-primary;
+  font-family: $font-secondary;
 }
 .dons-container {
   display: flex;

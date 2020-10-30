@@ -135,6 +135,7 @@ main {
     color: $color-primary;
     margin-left: 12%;
     margin-bottom: 5%;
+    font-family: $font-secondary;
   }
 }
 
@@ -176,6 +177,7 @@ main {
     font-size: 2em;
     color: $color-primary;
     margin-bottom: 5%;
+    font-family: $font-secondary;
   }
   .link {
     max-width: 25%;

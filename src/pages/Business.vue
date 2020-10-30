@@ -83,6 +83,8 @@ export default {
     font-size: 35px;
     color: #fff;
     text-transform: uppercase;
+    font-family: $font-secondary;
+
     width: 50%;
     line-height: 1.5em;
   }

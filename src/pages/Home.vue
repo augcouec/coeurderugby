@@ -222,6 +222,7 @@ export default {
     font-size: 40px;
     line-height: 1.5em;
     color: $color-primary;
+    font-family: $font-secondary;
   }
 }
 .emsemble_text {
@@ -248,6 +249,7 @@ export default {
   padding: 10%;
   h2 {
     color: #fff;
+    font-family: $font-secondary;
   }
   p {
     line-height: 2em;
@@ -306,6 +308,7 @@ export default {
   h2 {
     color: $color-primary;
     margin-bottom: 10%;
+    font-family: $font-secondary;
   }
   p {
     color: $color-primary;
@@ -325,6 +328,7 @@ export default {
 }
 .dons h2 {
   color: $color-primary;
+  font-family: $font-secondary;
 }
 .dons-container {
   display: flex;

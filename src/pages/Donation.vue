@@ -235,6 +235,7 @@ main {
   padding: 10%;
   h2 {
     color: $color-primary;
+    font-family: $font-secondary;
   }
   p {
     line-height: 2em;
@@ -266,7 +267,7 @@ main {
   h4 {
     margin-top: 60%;
     color: #fff;
-    font-family: $font-primary;
+    font-family: $font-secondary;
     font-size: 24px;
     margin: 20vh 10% 0 5%;
   }
@@ -317,6 +318,7 @@ main {
     font-size: 2em;
     color: $color-primary;
     margin-bottom: 5%;
+    font-family: $font-secondary;
   }
   .link {
     max-width: 45%;

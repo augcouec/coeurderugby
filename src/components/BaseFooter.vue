@@ -6,10 +6,10 @@
     <ul class="liste-nav">
       <li><router-link to="/">Accueil</router-link></li>
       <li><router-link to="/piliers">Piliers</router-link></li>
-      <li><router-link to="/">Cookies</router-link></li>
+      <li><router-link to="/mecenat">Don Entreprises</router-link></li>
       <li><router-link to="/donation">Don</router-link></li>
       <li><router-link to="jeu">Jeu</router-link></li>
-      <li><router-link to="/">Politique de confidentialitée</router-link></li>
+      <li><router-link to="/">Legals</router-link></li>
     </ul>
     <div class="aside-right">
       <SocialBar color="#691C33" />

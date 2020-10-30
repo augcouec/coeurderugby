@@ -45,6 +45,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "business" */ "../pages/Business.vue"),
   },
+  {
+    path: "/album/nouveau",
+    name: "AlbumForm",
+    component: () =>
+      import(/* webpackChunkName: "albumForm" */ "../pages/AlbumForm.vue"),
+  },
 ];
 
 const router = new VueRouter({

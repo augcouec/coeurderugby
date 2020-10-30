@@ -6,9 +6,8 @@
       <div class="introduction">
         <h1>Votre Mécènat</h1>
         <p>
-          Le mécénat particulier permet de bénéficier d’une réduction d’impôts
-          de 66% des sommes versées, retenues dans la limite annuelle de 20% du
-          revenu imposable. Le coeur de rugby a besoin de vous !
+          En devenant mécène, vous avez la possibilité, si vous le souhaitez, de
+          laisser votre empreinte sur le parvis du stade Chaban-Delmas.
         </p>
       </div>
       <section class="slider">
@@ -78,7 +77,7 @@
       </section>
 
       <section class="formul">
-        <h2>Devenir Mécène avec Allo Asso</h2>
+        <h2>Devenir Mécène avec HelloAsso</h2>
         <div class="formul-container">
           <div class="double">
             <InputText label="Nom*" placeholder="Ex : Dupond" name="lastname" />

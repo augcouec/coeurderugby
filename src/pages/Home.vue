@@ -7,9 +7,9 @@
           <SocialBar />
         </div>
         <h1 class="title">
-          Engagez-vous avec nous
+          Engagez-vous à nos côtés
         </h1>
-        <h1 class="subtitle">Engagez-vous avec nous</h1>
+        <h1 class="subtitle">Engagez-vous à nos côtés</h1>
         <hr />
       </section>
       <section class="emsemble">
@@ -30,9 +30,9 @@
       </section>
       <section class="slider">
         <div class="slider-left">
-          <h2>Nos terrains de jeux</h2>
+          <h2>Nos terrains de jeu</h2>
           <p>
-            Coeur de Rugby joue sur tout les terrains. Nous apportons notre aide
+            Coeur de Rugby joue sur tous les terrains. Nous apportons notre aide
             autour de 4 piliers fondamentaux. La solidarité, l’éducation, le
             rugby amateur et l’éco-responsabilité.
           </p>

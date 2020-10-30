@@ -164,10 +164,10 @@ export default {
         {
           question: "Après le match tu serais plutôt :",
           responses: [
-            "A relever les blessés restés sur le terrain",
-            "A se rendre directement taper la discute aux supporters",
-            "A refaire le match avec un debrief",
-            "A ramasser les déchets dans le vestiaire",
+            "À relever les blessés restés sur le terrain",
+            "À aller directement discuter avec supporters",
+            "À refaire le match avec un debrief",
+            "À ramasser les déchets dans le vestiaire",
           ],
         },
         {
@@ -192,18 +192,18 @@ export default {
         {
           question: "Si tu travaillais à l'UBB quel job t’irait le mieux ?",
           responses: [
-            "A la buvette",
+            "À la buvette",
             "Jardinier",
-            "Animateur socioculturel cœur de rugby",
-            "Entraineur de jeunes",
+            "Animateur socioculturel Cœur de rugby",
+            "Entraineur pour les jeunes",
           ],
         },
         {
           question: "Quel genre de personne es-tu en soirée ?",
           responses: [
-            "A prendre tout le monde bras dessus bras dessous",
-            "A débattre sur les solutions environnementales de cœur de rugby",
-            "A partager ton expérience auprès des jeunes",
+            "À prendre tout le monde bras dessus bras dessous",
+            "À débattre sur les solutions environnementales de Cœur de rugby",
+            "À partager ton expérience avec les jeunes",
             "Être le premier qui redémarre la chenille",
           ],
         },

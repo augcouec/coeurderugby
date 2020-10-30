@@ -18,19 +18,37 @@
             Remplis le formulaire ci-dessous avec tes informations personnelles
             pour créer ton avatar personnalisé et rejoindre notre album !
           </p>
-          <InputText label="Nom" placeholder="Ex: Duprès" name="lastname" />
-          <InputText label="Prénom" placeholder="Ex: Henri" name="firstname" />
+          <InputText
+            label="Nom"
+            placeholder="Ex: Duprès"
+            name="lastname"
+            @input="updateLastname"
+          />
+          <InputText
+            label="Prénom"
+            placeholder="Ex: Henri"
+            name="firstname"
+            @input="updateFirstname"
+          />
           <InputText
             label="Numéro de maillot que vous souhaitez"
             placeholder="Ex: 18"
             name="number"
+            @input="updateNumber"
           />
           <h3>Choisissez votre visuel</h3>
           <p class="italic">Optionnel</p>
           <BaseButton :white="true">Importer une photo</BaseButton>
           <BaseButton>Valider</BaseButton>
         </div>
-        <div class="w-50"></div>
+        <div class="w-50">
+          <PaniniCard
+            :firstname="firstName"
+            :lastname="lastName"
+            :number="number"
+            :imgSrc="wokiSrc"
+          />
+        </div>
       </div>
     </main>
     <BaseFooter />
@@ -42,6 +60,8 @@ import BaseHeader from "@/components/BaseHeader";
 import BaseFooter from "@/components/BaseFooter";
 import InputText from "@/components/InputText";
 import BaseButton from "@/components/BaseButton";
+import PaniniCard from "@/components/PaniniCard";
+import Woki from "@/assets/images/woki.png";
 
 export default {
   name: "AlbumForm",
@@ -50,6 +70,30 @@ export default {
     BaseFooter,
     InputText,
     BaseButton,
+    PaniniCard,
+  },
+  data() {
+    return {
+      firstName: "",
+      lastName: "",
+      number: "",
+    };
+  },
+  computed: {
+    wokiSrc() {
+      return Woki;
+    },
+  },
+  methods: {
+    updateLastname(value) {
+      this.lastName = value;
+    },
+    updateFirstname(value) {
+      this.firstName = value;
+    },
+    updateNumber(value) {
+      this.number = value;
+    },
   },
 };
 </script>
@@ -89,6 +133,7 @@ main {
   margin-top: -50px;
   padding: 0 20%;
   padding-bottom: 130px;
+  display: flex;
 
   h2 {
     font-family: $font-secondary;
@@ -116,6 +161,10 @@ main {
   button {
     width: 100%;
     margin-bottom: 16px;
+  }
+
+  .w-50 + .w-50 {
+    padding-left: 10%;
   }
 }
 </style>

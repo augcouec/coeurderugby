@@ -1,7 +1,7 @@
 <template>
   <div class="field-container">
     <label :for="name">{{ label }}</label>
-    <input :name="name" :placeholder="placeholder" />
+    <input :name="name" :placeholder="placeholder" v-model="inputValue" />
   </div>
 </template>
 
@@ -20,6 +20,16 @@ export default {
     name: {
       type: String,
       required: true,
+    },
+  },
+  data() {
+    return {
+      inputValue: "",
+    };
+  },
+  watch: {
+    inputValue() {
+      this.$emit("input", this.inputValue);
     },
   },
 };

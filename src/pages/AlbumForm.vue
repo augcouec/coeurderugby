@@ -108,13 +108,14 @@ main {
 }
 
 .introduction {
-  padding: 110px 100px 100px 100px;
+  padding: 8%;
   margin: 0 150px;
-  background-color: #f4f4f4;
+  background: url("../assets/images/image 15.png");
+  background-size: cover;
   transform: translateY(-50%);
 
   h1 {
-    font-size: 60px;
+    font-size: 44px;
     font-family: $font-secondary;
     font-weight: normal;
     text-transform: uppercase;
@@ -125,6 +126,8 @@ main {
     color: $color-primary;
     width: 50%;
     line-height: 35px;
+    font-size: 0.8em;
+    margin-top: 5%;
   }
 }
 

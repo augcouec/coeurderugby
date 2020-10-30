@@ -61,9 +61,7 @@
           auprès des plus jeunes. Toi aussi, rejoins la
           <strong>#TeamSolidaire</strong> !
         </p>
-        <router-link to="/donation" class="link link--white"
-          >Je m'engage</router-link
-        >
+        <router-link to="/" class="link link--white">Je m'engage</router-link>
         <div class="rs">
           <p class="rs-share">Partage ton pilier</p>
           <div class="svg">

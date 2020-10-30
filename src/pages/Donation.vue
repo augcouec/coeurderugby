@@ -61,6 +61,22 @@
           </swiper>
         </div>
       </section>
+      <section class="section-album">
+        <h2>Rejoignez la famille UBB</h2>
+        <div class="album">
+          <div
+            v-for="(avatar, index) in avatars"
+            :key="index + avatar"
+            class="albumimg"
+          >
+            <img :src="avatar" />
+          </div>
+        </div>
+        <router-link class="link link--white" to="/album"
+          >Voir l'album</router-link
+        >
+      </section>
+
       <section class="formul">
         <h2>Devenir Mécène avec Allo Asso</h2>
         <div class="formul-container">
@@ -115,6 +131,18 @@ import InputText from "@/components/InputText";
 import InputTextarea from "@/components/InputTextarea";
 import { Swiper, SwiperSlide } from "vue-awesome-swiper";
 import "swiper/swiper-bundle.css";
+import Image1 from "@/assets/images/avatars/UBB CARD 5-02.png";
+import Image2 from "@/assets/images/avatars/UBB CARD 5-03.png";
+import Image3 from "@/assets/images/avatars/UBB CARD 5-04.png";
+import Image4 from "@/assets/images/avatars/UBB CARD 5-05.png";
+import Image5 from "@/assets/images/avatars/UBB CARD 5-06.png";
+import Image6 from "@/assets/images/avatars/UBB CARD 5-07.png";
+import Image7 from "@/assets/images/avatars/UBB CARD 5-08.png";
+import Image8 from "@/assets/images/avatars/UBB CARD 5-09.png";
+import Image9 from "@/assets/images/avatars/UBB CARD 5-10.png";
+import Image10 from "@/assets/images/avatars/UBB CARD 5-11.png";
+import Image11 from "@/assets/images/avatars/UBB CARD 5-12.png";
+import Image12 from "@/assets/images/avatars/UBB CARD 5-12.png";
 
 export default {
   name: "DonationPage",
@@ -142,6 +170,20 @@ export default {
           prevEl: ".swiper-button-prev",
         },
       },
+      avatars: [
+        Image2,
+        Image8,
+        Image4,
+        Image10,
+        Image6,
+        Image1,
+        Image9,
+        Image3,
+        Image11,
+        Image5,
+        Image12,
+        Image7,
+      ],
     };
   },
 };
@@ -235,6 +277,36 @@ main {
     margin: 5%;
   }
 }
+.section-album {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    color: $color-primary;
+    font-size: 1.8em;
+    margin: 3% 0 5% 0;
+  }
+  .link {
+    width: 40%;
+    margin: 3% 0 10% 0;
+  }
+}
+.album {
+  padding: 0 10% 30px 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.albumimg {
+  width: 16%;
+  padding: 10px;
+
+  img {
+    width: 100%;
+  }
+}
+
 .formul {
   width: 78%;
   margin-left: 11%;

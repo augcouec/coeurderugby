@@ -296,6 +296,7 @@ main {
   padding: 0 10% 30px 10%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .albumimg {

@@ -104,7 +104,7 @@ main {
   h1 {
     font-size: 44px;
     font-family: $font-secondary;
-    font-weight: normal;
+    font-weight: bold;
     text-transform: uppercase;
     color: $color-primary;
   }

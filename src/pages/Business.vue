@@ -84,6 +84,7 @@ export default {
     color: #fff;
     text-transform: uppercase;
     font-family: $font-secondary;
+    font-weight: bold;
 
     width: 50%;
     line-height: 1.5em;

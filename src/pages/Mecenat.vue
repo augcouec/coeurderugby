@@ -116,7 +116,7 @@ main {
   h1 {
     font-size: 44px;
     font-family: $font-secondary;
-    font-weight: normal;
+    font-weight: bold;
     text-transform: uppercase;
     color: $color-primary;
   }
@@ -135,6 +135,8 @@ main {
     color: $color-primary;
     margin-left: 12%;
     margin-bottom: 5%;
+    font-weight: bold;
+
     font-family: $font-secondary;
   }
 }
@@ -178,6 +180,7 @@ main {
     color: $color-primary;
     margin-bottom: 5%;
     font-family: $font-secondary;
+    font-weight: bold;
   }
   .link {
     max-width: 25%;

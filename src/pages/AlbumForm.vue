@@ -211,7 +211,7 @@ main {
   h1 {
     font-size: 44px;
     font-family: $font-secondary;
-    font-weight: normal;
+    font-weight: bold;
     text-transform: uppercase;
     color: $color-primary;
   }
@@ -237,6 +237,7 @@ main {
     font-size: 60px;
     color: $color-primary;
     margin-bottom: 40px;
+    font-weight: bold;
   }
 
   p {

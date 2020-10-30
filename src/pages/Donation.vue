@@ -208,7 +208,7 @@ main {
   h1 {
     font-size: 44px;
     font-family: $font-secondary;
-    font-weight: normal;
+    font-weight: bold;
     text-transform: uppercase;
     color: $color-primary;
   }
@@ -236,6 +236,7 @@ main {
   h2 {
     color: $color-primary;
     font-family: $font-secondary;
+    font-weight: bold;
   }
   p {
     line-height: 2em;
@@ -287,6 +288,7 @@ main {
     color: $color-primary;
     font-size: 1.8em;
     margin: 3% 0 5% 0;
+    font-weight: bold;
   }
   .link {
     width: 40%;
@@ -319,6 +321,7 @@ main {
     color: $color-primary;
     margin-bottom: 5%;
     font-family: $font-secondary;
+    font-weight: bold;
   }
   .link {
     max-width: 45%;

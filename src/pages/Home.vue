@@ -222,6 +222,8 @@ export default {
     font-size: 40px;
     line-height: 1.5em;
     color: $color-primary;
+    font-weight: bold;
+
     font-family: $font-secondary;
   }
 }
@@ -250,6 +252,7 @@ export default {
   h2 {
     color: #fff;
     font-family: $font-secondary;
+    font-weight: bold;
   }
   p {
     line-height: 2em;
@@ -309,6 +312,7 @@ export default {
     color: $color-primary;
     margin-bottom: 10%;
     font-family: $font-secondary;
+    font-weight: bold;
   }
   p {
     color: $color-primary;
@@ -329,6 +333,7 @@ export default {
 .dons h2 {
   color: $color-primary;
   font-family: $font-secondary;
+  font-weight: bold;
 }
 .dons-container {
   display: flex;

@@ -12,6 +12,9 @@
         </p>
         <router-link to="/" class="link">Devenir donateur</router-link>
       </div>
+      <div class="input">
+        <input type="text" placeholder="Rechercher..." />
+      </div>
       <div class="album">
         <div
           v-for="(avatar, index) in avatars"
@@ -20,6 +23,16 @@
         >
           <img :src="avatar" />
         </div>
+      </div>
+      <div
+        class="arrow"
+        @click="
+          () => {
+            this.avatars = [...this.avatars, ...this.avatars.slice(0, 12)];
+          }
+        "
+      >
+        <img :src="arrow" />
       </div>
     </main>
     <BaseFooter />
@@ -41,6 +54,7 @@ import Image9 from "@/assets/images/avatars/UBB CARD 5-10.png";
 import Image10 from "@/assets/images/avatars/UBB CARD 5-11.png";
 import Image11 from "@/assets/images/avatars/UBB CARD 5-12.png";
 import Image12 from "@/assets/images/avatars/UBB CARD 5-12.png";
+import Arrow from "@/assets/images/arrow-down.svg";
 
 export default {
   name: "CarottePage",
@@ -64,6 +78,7 @@ export default {
         Image12,
         Image7,
       ],
+      arrow: Arrow,
     };
   },
 };
@@ -108,11 +123,33 @@ main {
   }
 }
 
+.input {
+  display: flex;
+  justify-content: end;
+  margin-top: -100px;
+  margin-bottom: 50px;
+
+  input {
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    border: solid 1px transparent;
+    padding: 13px 20px;
+    color: black;
+    width: 20%;
+    margin-right: calc(10% + 10px);
+
+    &::placeholder {
+      font-style: italic;
+      color: $color-primary;
+    }
+  }
+}
+
 .album {
-  margin-top: -50px;
   padding: 0 10% 30px 10%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .albumimg {
@@ -122,5 +159,11 @@ main {
   img {
     width: 100%;
   }
+}
+
+.arrow {
+  text-align: center;
+  padding-bottom: 50px;
+  cursor: pointer;
 }
 </style>

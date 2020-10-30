@@ -13,31 +13,33 @@
         </div>
         <div class="formular">
           <InputText
-            label="Entreprise"
+            label="Entreprise*"
             placeholder="Ex : Dupond et fils"
             name="company"
           />
           <div class="double">
-            <InputText label="Nom" placeholder="Ex : Dupond" name="lastname" />
+            <InputText label="Nom*" placeholder="Ex : Dupond" name="lastname" />
             <InputText
-              label="Prénom"
+              label="Prénom*"
               placeholder="Ex : Jean"
               name="firstname"
             />
           </div>
           <div class="double">
             <InputText
-              label="Email"
+              label="Email*"
               placeholder="Ex : jeandupond@gmail.com"
               name="mail"
             />
             <InputText
-              label="Telephone"
+              label="Telephone*"
               placeholder="Ex : 0758636352"
               name="phone"
             />
           </div>
           <InputTextarea label="Votre Message" name="message" />
+          <p>*Champs obligatoires</p>
+          <router-link class="link" to="/Business-form">Envoyer</router-link>
         </div>
       </section>
     </main>
@@ -95,6 +97,12 @@ export default {
 .formular {
   width: 50%;
   padding: 5%;
+  margin-bottom: 5%;
+
+  .link {
+    max-width: 30%;
+    margin-top: 3%;
+  }
 }
 .double {
   width: 100%;
